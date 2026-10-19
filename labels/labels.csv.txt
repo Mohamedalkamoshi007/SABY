@@ -1,0 +1,3 @@
+under_left_back.wav,0,2.3,BREATH_CLEAR,تنفس
+under_left_back.wav,2.3,3,ENV_NOISE,صوت الديك
+under_left_back.wav,3,30,BREATH_CLEAR,تنفس

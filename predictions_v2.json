@@ -1,0 +1,714 @@
+[
+  {
+    "file": "back.wav",
+    "duration_s": 30.96,
+    "peak_dbfs": -11.7,
+    "baseline_db": -65.4,
+    "contrast_db": 12.5,
+    "breathing_windows": 19,
+    "windows_total": 19,
+    "result": "Uncertain",
+    "best_guess": "Crackle",
+    "confidence": 0.451,
+    "mean_probabilities": {
+      "Normal": 0.328,
+      "Crackle": 0.451,
+      "Wheeze": 0.091,
+      "Both": 0.13
+    },
+    "votes": {
+      "Normal": 11,
+      "Crackle": 8,
+      "Wheeze": 0,
+      "Both": 0
+    },
+    "windows": [
+      {
+        "t0": 0.0,
+        "t1": 3.0,
+        "kept": true,
+        "active_fraction": 0.47,
+        "predicted": "Normal",
+        "confidence": 0.499
+      },
+      {
+        "t0": 1.5,
+        "t1": 4.5,
+        "kept": true,
+        "active_fraction": 0.63,
+        "predicted": "Normal",
+        "confidence": 0.517
+      },
+      {
+        "t0": 3.0,
+        "t1": 6.0,
+        "kept": true,
+        "active_fraction": 0.53,
+        "predicted": "Normal",
+        "confidence": 0.477
+      },
+      {
+        "t0": 4.5,
+        "t1": 7.5,
+        "kept": true,
+        "active_fraction": 0.43,
+        "predicted": "Normal",
+        "confidence": 0.399
+      },
+      {
+        "t0": 6.0,
+        "t1": 9.0,
+        "kept": true,
+        "active_fraction": 0.43,
+        "predicted": "Normal",
+        "confidence": 0.508
+      },
+      {
+        "t0": 7.5,
+        "t1": 10.5,
+        "kept": true,
+        "active_fraction": 0.6,
+        "predicted": "Normal",
+        "confidence": 0.549
+      },
+      {
+        "t0": 9.0,
+        "t1": 12.0,
+        "kept": true,
+        "active_fraction": 0.7,
+        "predicted": "Normal",
+        "confidence": 0.522
+      },
+      {
+        "t0": 10.5,
+        "t1": 13.5,
+        "kept": true,
+        "active_fraction": 0.57,
+        "predicted": "Normal",
+        "confidence": 0.436
+      },
+      {
+        "t0": 12.0,
+        "t1": 15.0,
+        "kept": true,
+        "active_fraction": 0.6,
+        "predicted": "Normal",
+        "confidence": 0.436
+      },
+      {
+        "t0": 13.5,
+        "t1": 16.5,
+        "kept": true,
+        "active_fraction": 0.53,
+        "predicted": "Crackle",
+        "confidence": 0.796
+      },
+      {
+        "t0": 15.0,
+        "t1": 18.0,
+        "kept": true,
+        "active_fraction": 0.33,
+        "predicted": "Crackle",
+        "confidence": 0.768
+      },
+      {
+        "t0": 16.5,
+        "t1": 19.5,
+        "kept": true,
+        "active_fraction": 0.73,
+        "predicted": "Crackle",
+        "confidence": 0.647
+      },
+      {
+        "t0": 18.0,
+        "t1": 21.0,
+        "kept": true,
+        "active_fraction": 0.93,
+        "predicted": "Crackle",
+        "confidence": 0.539
+      },
+      {
+        "t0": 19.5,
+        "t1": 22.5,
+        "kept": true,
+        "active_fraction": 0.7,
+        "predicted": "Normal",
+        "confidence": 0.426
+      },
+      {
+        "t0": 21.0,
+        "t1": 24.0,
+        "kept": true,
+        "active_fraction": 0.5,
+        "predicted": "Normal",
+        "confidence": 0.305
+      },
+      {
+        "t0": 22.5,
+        "t1": 25.5,
+        "kept": true,
+        "active_fraction": 0.37,
+        "predicted": "Crackle",
+        "confidence": 0.708
+      },
+      {
+        "t0": 24.0,
+        "t1": 27.0,
+        "kept": true,
+        "active_fraction": 0.33,
+        "predicted": "Crackle",
+        "confidence": 0.797
+      },
+      {
+        "t0": 25.5,
+        "t1": 28.5,
+        "kept": true,
+        "active_fraction": 0.43,
+        "predicted": "Crackle",
+        "confidence": 0.825
+      },
+      {
+        "t0": 27.0,
+        "t1": 30.0,
+        "kept": true,
+        "active_fraction": 0.3,
+        "predicted": "Crackle",
+        "confidence": 0.743
+      }
+    ]
+  },
+  {
+    "file": "right.wav",
+    "duration_s": 30.04,
+    "peak_dbfs": -9.1,
+    "baseline_db": -68.8,
+    "contrast_db": 8.2,
+    "breathing_windows": 18,
+    "windows_total": 19,
+    "result": "Uncertain",
+    "best_guess": "Crackle",
+    "confidence": 0.456,
+    "mean_probabilities": {
+      "Normal": 0.298,
+      "Crackle": 0.456,
+      "Wheeze": 0.119,
+      "Both": 0.127
+    },
+    "votes": {
+      "Normal": 1,
+      "Crackle": 17,
+      "Wheeze": 0,
+      "Both": 0
+    },
+    "windows": [
+      {
+        "t0": 0.0,
+        "t1": 3.0,
+        "kept": true,
+        "active_fraction": 0.63,
+        "predicted": "Crackle",
+        "confidence": 0.469
+      },
+      {
+        "t0": 1.5,
+        "t1": 4.5,
+        "kept": true,
+        "active_fraction": 0.6,
+        "predicted": "Crackle",
+        "confidence": 0.523
+      },
+      {
+        "t0": 3.0,
+        "t1": 6.0,
+        "kept": true,
+        "active_fraction": 0.53,
+        "predicted": "Crackle",
+        "confidence": 0.617
+      },
+      {
+        "t0": 4.5,
+        "t1": 7.5,
+        "kept": true,
+        "active_fraction": 0.57,
+        "predicted": "Crackle",
+        "confidence": 0.447
+      },
+      {
+        "t0": 6.0,
+        "t1": 9.0,
+        "kept": true,
+        "active_fraction": 0.57,
+        "predicted": "Crackle",
+        "confidence": 0.444
+      },
+      {
+        "t0": 7.5,
+        "t1": 10.5,
+        "kept": true,
+        "active_fraction": 0.63,
+        "predicted": "Crackle",
+        "confidence": 0.499
+      },
+      {
+        "t0": 9.0,
+        "t1": 12.0,
+        "kept": true,
+        "active_fraction": 0.67,
+        "predicted": "Crackle",
+        "confidence": 0.477
+      },
+      {
+        "t0": 10.5,
+        "t1": 13.5,
+        "kept": true,
+        "active_fraction": 0.63,
+        "predicted": "Crackle",
+        "confidence": 0.423
+      },
+      {
+        "t0": 12.0,
+        "t1": 15.0,
+        "kept": true,
+        "active_fraction": 0.6,
+        "predicted": "Crackle",
+        "confidence": 0.492
+      },
+      {
+        "t0": 13.5,
+        "t1": 16.5,
+        "kept": true,
+        "active_fraction": 0.57,
+        "predicted": "Crackle",
+        "confidence": 0.458
+      },
+      {
+        "t0": 15.0,
+        "t1": 18.0,
+        "kept": true,
+        "active_fraction": 0.53,
+        "predicted": "Crackle",
+        "confidence": 0.441
+      },
+      {
+        "t0": 16.5,
+        "t1": 19.5,
+        "kept": true,
+        "active_fraction": 0.43,
+        "predicted": "Crackle",
+        "confidence": 0.409
+      },
+      {
+        "t0": 18.0,
+        "t1": 21.0,
+        "kept": true,
+        "active_fraction": 0.37,
+        "predicted": "Crackle",
+        "confidence": 0.407
+      },
+      {
+        "t0": 19.5,
+        "t1": 22.5,
+        "kept": true,
+        "active_fraction": 0.33,
+        "predicted": "Crackle",
+        "confidence": 0.484
+      },
+      {
+        "t0": 21.0,
+        "t1": 24.0,
+        "kept": false,
+        "active_fraction": 0.17,
+        "predicted": "Crackle",
+        "confidence": 0.525
+      },
+      {
+        "t0": 22.5,
+        "t1": 25.5,
+        "kept": true,
+        "active_fraction": 0.23,
+        "predicted": "Crackle",
+        "confidence": 0.5
+      },
+      {
+        "t0": 24.0,
+        "t1": 27.0,
+        "kept": true,
+        "active_fraction": 0.33,
+        "predicted": "Crackle",
+        "confidence": 0.408
+      },
+      {
+        "t0": 25.5,
+        "t1": 28.5,
+        "kept": true,
+        "active_fraction": 0.27,
+        "predicted": "Crackle",
+        "confidence": 0.348
+      },
+      {
+        "t0": 27.0,
+        "t1": 30.0,
+        "kept": true,
+        "active_fraction": 0.37,
+        "predicted": "Normal",
+        "confidence": 0.379
+      }
+    ]
+  },
+  {
+    "file": "up-left.wav",
+    "duration_s": 30.04,
+    "peak_dbfs": -7.1,
+    "baseline_db": -64.9,
+    "contrast_db": 12.1,
+    "breathing_windows": 18,
+    "windows_total": 19,
+    "result": "Crackle",
+    "best_guess": "Crackle",
+    "confidence": 0.645,
+    "mean_probabilities": {
+      "Normal": 0.189,
+      "Crackle": 0.645,
+      "Wheeze": 0.051,
+      "Both": 0.114
+    },
+    "votes": {
+      "Normal": 0,
+      "Crackle": 18,
+      "Wheeze": 0,
+      "Both": 0
+    },
+    "windows": [
+      {
+        "t0": 0.0,
+        "t1": 3.0,
+        "kept": true,
+        "active_fraction": 0.4,
+        "predicted": "Crackle",
+        "confidence": 0.688
+      },
+      {
+        "t0": 1.5,
+        "t1": 4.5,
+        "kept": true,
+        "active_fraction": 0.47,
+        "predicted": "Crackle",
+        "confidence": 0.585
+      },
+      {
+        "t0": 3.0,
+        "t1": 6.0,
+        "kept": true,
+        "active_fraction": 0.7,
+        "predicted": "Crackle",
+        "confidence": 0.668
+      },
+      {
+        "t0": 4.5,
+        "t1": 7.5,
+        "kept": true,
+        "active_fraction": 0.93,
+        "predicted": "Crackle",
+        "confidence": 0.653
+      },
+      {
+        "t0": 6.0,
+        "t1": 9.0,
+        "kept": true,
+        "active_fraction": 1.0,
+        "predicted": "Crackle",
+        "confidence": 0.578
+      },
+      {
+        "t0": 7.5,
+        "t1": 10.5,
+        "kept": true,
+        "active_fraction": 0.8,
+        "predicted": "Crackle",
+        "confidence": 0.624
+      },
+      {
+        "t0": 9.0,
+        "t1": 12.0,
+        "kept": true,
+        "active_fraction": 0.4,
+        "predicted": "Crackle",
+        "confidence": 0.572
+      },
+      {
+        "t0": 10.5,
+        "t1": 13.5,
+        "kept": true,
+        "active_fraction": 0.23,
+        "predicted": "Crackle",
+        "confidence": 0.551
+      },
+      {
+        "t0": 12.0,
+        "t1": 15.0,
+        "kept": false,
+        "active_fraction": 0.17,
+        "predicted": "Crackle",
+        "confidence": 0.574
+      },
+      {
+        "t0": 13.5,
+        "t1": 16.5,
+        "kept": true,
+        "active_fraction": 0.23,
+        "predicted": "Crackle",
+        "confidence": 0.505
+      },
+      {
+        "t0": 15.0,
+        "t1": 18.0,
+        "kept": true,
+        "active_fraction": 0.47,
+        "predicted": "Crackle",
+        "confidence": 0.585
+      },
+      {
+        "t0": 16.5,
+        "t1": 19.5,
+        "kept": true,
+        "active_fraction": 0.63,
+        "predicted": "Crackle",
+        "confidence": 0.752
+      },
+      {
+        "t0": 18.0,
+        "t1": 21.0,
+        "kept": true,
+        "active_fraction": 0.8,
+        "predicted": "Crackle",
+        "confidence": 0.737
+      },
+      {
+        "t0": 19.5,
+        "t1": 22.5,
+        "kept": true,
+        "active_fraction": 0.87,
+        "predicted": "Crackle",
+        "confidence": 0.646
+      },
+      {
+        "t0": 21.0,
+        "t1": 24.0,
+        "kept": true,
+        "active_fraction": 0.6,
+        "predicted": "Crackle",
+        "confidence": 0.74
+      },
+      {
+        "t0": 22.5,
+        "t1": 25.5,
+        "kept": true,
+        "active_fraction": 0.33,
+        "predicted": "Crackle",
+        "confidence": 0.611
+      },
+      {
+        "t0": 24.0,
+        "t1": 27.0,
+        "kept": true,
+        "active_fraction": 0.23,
+        "predicted": "Crackle",
+        "confidence": 0.678
+      },
+      {
+        "t0": 25.5,
+        "t1": 28.5,
+        "kept": true,
+        "active_fraction": 0.3,
+        "predicted": "Crackle",
+        "confidence": 0.764
+      },
+      {
+        "t0": 27.0,
+        "t1": 30.0,
+        "kept": true,
+        "active_fraction": 0.37,
+        "predicted": "Crackle",
+        "confidence": 0.665
+      }
+    ]
+  },
+  {
+    "file": "up-right.wav",
+    "duration_s": 30.04,
+    "peak_dbfs": -5.1,
+    "baseline_db": -67.9,
+    "contrast_db": 10.4,
+    "breathing_windows": 19,
+    "windows_total": 19,
+    "result": "Uncertain",
+    "best_guess": "Crackle",
+    "confidence": 0.52,
+    "mean_probabilities": {
+      "Normal": 0.299,
+      "Crackle": 0.52,
+      "Wheeze": 0.08,
+      "Both": 0.101
+    },
+    "votes": {
+      "Normal": 4,
+      "Crackle": 15,
+      "Wheeze": 0,
+      "Both": 0
+    },
+    "windows": [
+      {
+        "t0": 0.0,
+        "t1": 3.0,
+        "kept": true,
+        "active_fraction": 0.6,
+        "predicted": "Crackle",
+        "confidence": 0.519
+      },
+      {
+        "t0": 1.5,
+        "t1": 4.5,
+        "kept": true,
+        "active_fraction": 0.5,
+        "predicted": "Crackle",
+        "confidence": 0.689
+      },
+      {
+        "t0": 3.0,
+        "t1": 6.0,
+        "kept": true,
+        "active_fraction": 0.5,
+        "predicted": "Crackle",
+        "confidence": 0.676
+      },
+      {
+        "t0": 4.5,
+        "t1": 7.5,
+        "kept": true,
+        "active_fraction": 0.5,
+        "predicted": "Crackle",
+        "confidence": 0.617
+      },
+      {
+        "t0": 6.0,
+        "t1": 9.0,
+        "kept": true,
+        "active_fraction": 0.6,
+        "predicted": "Crackle",
+        "confidence": 0.646
+      },
+      {
+        "t0": 7.5,
+        "t1": 10.5,
+        "kept": true,
+        "active_fraction": 0.57,
+        "predicted": "Crackle",
+        "confidence": 0.545
+      },
+      {
+        "t0": 9.0,
+        "t1": 12.0,
+        "kept": true,
+        "active_fraction": 0.4,
+        "predicted": "Crackle",
+        "confidence": 0.502
+      },
+      {
+        "t0": 10.5,
+        "t1": 13.5,
+        "kept": true,
+        "active_fraction": 0.3,
+        "predicted": "Normal",
+        "confidence": 0.367
+      },
+      {
+        "t0": 12.0,
+        "t1": 15.0,
+        "kept": true,
+        "active_fraction": 0.27,
+        "predicted": "Normal",
+        "confidence": 0.454
+      },
+      {
+        "t0": 13.5,
+        "t1": 16.5,
+        "kept": true,
+        "active_fraction": 0.33,
+        "predicted": "Crackle",
+        "confidence": 0.663
+      },
+      {
+        "t0": 15.0,
+        "t1": 18.0,
+        "kept": true,
+        "active_fraction": 0.7,
+        "predicted": "Crackle",
+        "confidence": 0.588
+      },
+      {
+        "t0": 16.5,
+        "t1": 19.5,
+        "kept": true,
+        "active_fraction": 0.83,
+        "predicted": "Crackle",
+        "confidence": 0.405
+      },
+      {
+        "t0": 18.0,
+        "t1": 21.0,
+        "kept": true,
+        "active_fraction": 0.73,
+        "predicted": "Crackle",
+        "confidence": 0.664
+      },
+      {
+        "t0": 19.5,
+        "t1": 22.5,
+        "kept": true,
+        "active_fraction": 0.57,
+        "predicted": "Crackle",
+        "confidence": 0.648
+      },
+      {
+        "t0": 21.0,
+        "t1": 24.0,
+        "kept": true,
+        "active_fraction": 0.6,
+        "predicted": "Crackle",
+        "confidence": 0.472
+      },
+      {
+        "t0": 22.5,
+        "t1": 25.5,
+        "kept": true,
+        "active_fraction": 0.6,
+        "predicted": "Normal",
+        "confidence": 0.479
+      },
+      {
+        "t0": 24.0,
+        "t1": 27.0,
+        "kept": true,
+        "active_fraction": 0.5,
+        "predicted": "Normal",
+        "confidence": 0.464
+      },
+      {
+        "t0": 25.5,
+        "t1": 28.5,
+        "kept": true,
+        "active_fraction": 0.43,
+        "predicted": "Crackle",
+        "confidence": 0.478
+      },
+      {
+        "t0": 27.0,
+        "t1": 30.0,
+        "kept": true,
+        "active_fraction": 0.53,
+        "predicted": "Crackle",
+        "confidence": 0.572
+      }
+    ]
+  }
+]

@@ -1,0 +1,5 @@
+﻿/audio_and_txt_files/
+/icbhi_features_cache.npz
+/icbhi_panns_emb.npz
+
+__pycache__/

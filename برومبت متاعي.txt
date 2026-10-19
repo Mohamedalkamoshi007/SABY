@@ -1,0 +1,73 @@
+﻿You are an expert in embedded systems (ESP32), digital signal processing, Python, and IoT. 
+Reply in ARABIC (simple, clear, direct; the user writes Arabic with some Libyan dialect). 
+Give exact step-by-step instructions and complete copy-paste code when code is needed. 
+Be honest about uncertainty: say what is measured vs. what is only an estimate, and never promise results you cannot verify.
+Below is the full summary of my project so far. Read it, then help me with the current problem and next steps.
+
+
+=== 1. PROJECT ===
+University software-engineering course project (3 students, 14 weeks). Original proposal ("SABY"): an infant breathing-sound monitor. 
+An ESP32-C3 + microphone streams audio over Wi-Fi (UDP), with a BLE fallback when the internet is down (about 10 m range); 
+a Laravel server; a Flutter mobile app with alerts, treatment follow-up, offline storage and sync; 
+and a CNN to classify wheezes and crackles. Explicitly out of scope: medical diagnosis. 
+I (the author) am a patient with respiratory symptoms and I test ONLY on myself, never on an infant.
+
+
+=== 2. HARDWARE ===
+- ESP32-C3 SuperMini. Left-side pins top to bottom: 5V, G, 3.3, 4, 3, 2, 1, 0.
+- INMP441 I2S digital MEMS mic (round module, plugged into a breadboard). Wiring: VDD->3.3, GND->G, L/R->G, SCK->GPIO4, WS->GPIO3, SD->GPIO1. 100 nF ceramic cap between VDD and GND at the mic.
+- Replaced earlier: MAX4466 analog mic on GPIO1 (internal ADC).
+- A real stethoscope (bought recently; tube length unknown to me) plus an earlier home-made funnel + medical tube.
+- TP4056 (protected-looking board, ZX-056), Li-ion battery, slide switch, 1N5819 diode (not used), 100 uF electrolytic cap, 100 nF ceramic cap.
+- Rule I follow now: USB power ONLY. Battery, TP4056, switch and electrolytic cap are disconnected (see incident below).
+
+
+=== 3. SOFTWARE ===
+PC: Windows, Arduino IDE 2.3.10 (esp32 core 3.3.12), VS Code, Python 3.14 (numpy, scipy, sounddevice, matplotlib).
+Firmware "Phase2_I2S_Stream": I2S 16 kHz, 32-bit slot, sends int16 samples (raw >> GAIN_SHIFT, GAIN_SHIFT=13 = +18 dB digital gain, with clipping protection) 
+in UDP packets: uint16 magic 0xA51E, uint16 rate, uint32 seq, 320 samples (20 ms) -> about 50 packets/s, about 1450 packets per 30 s. 
+Wi-Fi TX power set to 8.5 dBm, sleep disabled.
+Python scripts in folder SABY: 
+- mic_receiver.py (UDP receiver, WAV saving, DC high-pass, gain, packet-loss handling, optional --denoise, auto-runs report.py after each recording; 
+  usage: py mic_receiver.py --seconds 30 --gain 1 --hp 20 --out name.wav), 
+- report.py (PNG with level-vs-time, spectrogram 0-2 kHz, average spectrum, and a title with rms/peak/clipping/packets/lost), 
+- spectrogram.py, measure.py, lung_filter.py (band-pass 100-1500 Hz for listening), denoise.py (spectral subtraction).
+
+
+=== 4. WHAT WE DID AND LEARNED ===
+1) Started with MAX4466 + internal ADC at 8 kHz. Fixed many wiring problems (floating GPIO, loose breadboard contacts, VCC once on 5V by mistake). 
+   UDP streaming worked, but buzzing/noise remained because of ADC noise and supply ripple. Oversampling and denoising helped only partly.
+2) Switched to INMP441 over I2S at 16 kHz: clean audio, no buzzing, packet loss below 2% on USB power.
+3) Air-mic breathing tests (mic at 10/30/50 cm from nose, quiet breathing): breathing was NOT distinguishable from room noise (about 0 dB difference). 
+   Conclusion: a mic placed in the air beside a baby's head cannot reliably capture quiet breathing, let alone wheezes or crackles.
+4) Contact approach: funnel + tube on my chest. Heartbeat was clear (about 66 bpm estimated), and breaths were visible in the spectrogram as bursts around 400-1800 Hz 
+   (clearest with mouth breathing after a ~5 s breath hold). Strong low-frequency rumble at 20-60 Hz (probably contact/movement). 
+   In the nose recording there were fixed horizontal bands near 850 and 1250 Hz that may be tube resonance (long tube) and could be mistaken for wheezes; 
+   plan: shorten the tube to 10-15 cm and compare. Lesson: spectrograms are a much better analysis tool than overall levels (my earlier level-based analysis was misleading).
+5) I then bought a real stethoscope; I report the heartbeat is very clear and clean. I have not yet analyzed breathing or symptom recordings with it.
+6) Battery incident (unresolved): on battery power through TP4056 + switch the audio had a pulsing artifact. When I added the 100 uF electrolytic cap across 5V and G 
+   (grey stripe side = negative, intended on G), something got warm and the board LED did not light. Cause unknown (suspected short or reversed polarity). 
+   Battery is now disconnected; USB only until the cause is understood. Safety: no battery or wires near a baby; test only on an adult.
+7) Verdict agreed so far: the original idea (device beside the baby's head detecting wheeze/crackle live) will NOT work. 
+   A contact (stethoscope-style) sensor on a person's chest can work as a research prototype: train a CNN on public data (e.g., ICBHI), 
+   then test on my own recordings and report the accuracy honestly. Fallback if this fails: sound-event classification (cough, cry, heavy breathing, silence), with wheeze/crackle as an experimental extra. 
+   The report must state: one subject, self-labelled (not clinician-confirmed), not a diagnostic device, not tested on infants.
+
+
+=== 5. CURRENT PROBLEM ===
+Recordings now get almost no packets: "pkts=16 lost=0" in 30 s (also pkts=15 once before), expected about 1450. The few packets that arrive show the IP is right, then streaming stops. 
+Earlier the same code gave pkts of about 1470 per 30 s. Changes since then: the board now connects to Wi-Fi "Abouminyar" (before: "netis_40FE37"), 
+board IP 192.168.1.9, PC_IP in the firmware = 192.168.1.31 (the PC IP changed several times in the past). Wi-Fi password intentionally omitted here.
+Planned checks: keep Serial Monitor open (115200) during a recording and see whether sent= keeps increasing, the board resets, or Wi-Fi drops; 
+verify ipconfig vs PC_IP; set the Windows network profile to Private; firewall rule for UDP 5005; remove every wire from 5V/G except the mic; try another USB cable/port; 
+add esp_reset_reason() and uptime to the serial output.
+I am about to send you the Serial Monitor output.
+
+
+=== 6. WHAT I WANT FROM YOU ===
+1) Diagnose the packet problem from the output I send, and give me the exact fix.
+2) Then analyze the recordings and report images I send (WAV + *_report.png): heartbeat clarity, breathing visibility, tube resonance, noise, clipping, packet loss, 
+   and tell me honestly whether the chest-contact path is good enough to continue.
+3) Propose the next steps in order: tube/diaphragm improvements, collecting my own recordings, CNN training on public data and testing on my recordings, 
+   then integration with the server, the app and alerts, and finally a safe power design.
+Keep answers short and step-by-step. Always remind me of safety only when it is relevant.

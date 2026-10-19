@@ -1,0 +1,77 @@
+[
+  {
+    "file": "hold_breath_02.wav",
+    "duration_s": 5.0,
+    "windows_analyzed": 2,
+    "final_prediction": "Crackle",
+    "confidence": 0.812,
+    "probabilities": {
+      "Normal": 0.128,
+      "Crackle": 0.812,
+      "Wheeze": 0.021,
+      "Both": 0.04
+    },
+    "windows": [
+      {
+        "time_range_s": "0.0-3.0",
+        "predicted": "Crackle",
+        "confidence": 0.795
+      },
+      {
+        "time_range_s": "1.5-4.5",
+        "predicted": "Crackle",
+        "confidence": 0.828
+      }
+    ]
+  },
+  {
+    "file": "hold_chest_open_01.wav",
+    "duration_s": 5.0,
+    "windows_analyzed": 2,
+    "final_prediction": "Crackle",
+    "confidence": 0.419,
+    "probabilities": {
+      "Normal": 0.399,
+      "Crackle": 0.419,
+      "Wheeze": 0.122,
+      "Both": 0.06
+    },
+    "windows": [
+      {
+        "time_range_s": "0.0-3.0",
+        "predicted": "Crackle",
+        "confidence": 0.437
+      },
+      {
+        "time_range_s": "1.5-4.5",
+        "predicted": "Crackle",
+        "confidence": 0.4
+      }
+    ]
+  },
+  {
+    "file": "hold_steth_upper_right.wav",
+    "duration_s": 5.0,
+    "windows_analyzed": 2,
+    "final_prediction": "Wheeze",
+    "confidence": 0.526,
+    "probabilities": {
+      "Normal": 0.266,
+      "Crackle": 0.045,
+      "Wheeze": 0.526,
+      "Both": 0.163
+    },
+    "windows": [
+      {
+        "time_range_s": "0.0-3.0",
+        "predicted": "Wheeze",
+        "confidence": 0.644
+      },
+      {
+        "time_range_s": "1.5-4.5",
+        "predicted": "Wheeze",
+        "confidence": 0.407
+      }
+    ]
+  }
+]

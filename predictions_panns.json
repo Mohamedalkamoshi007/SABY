@@ -1,0 +1,1718 @@
+[
+  {
+    "file": "middle_back.wav",
+    "duration_s": 30.08,
+    "contrast_db": 15.4,
+    "summary": {
+      "scored_windows": 13,
+      "crackle_mean": 0.713,
+      "crackle_max": 0.831,
+      "crackle_over_half": 11,
+      "wheeze_mean": 0.345,
+      "wheeze_max": 0.507,
+      "wheeze_over_half": 2,
+      "four_class_mean": {
+        "Normal": 0.192,
+        "Crackle": 0.51,
+        "Wheeze": 0.131,
+        "Both": 0.166
+      }
+    },
+    "windows": [
+      {
+        "t0": 0.0,
+        "t1": 3.0,
+        "kept": true,
+        "active_fraction": 0.67,
+        "crackle": 0.821,
+        "wheeze": 0.362
+      },
+      {
+        "t0": 1.5,
+        "t1": 4.5,
+        "kept": true,
+        "active_fraction": 0.6,
+        "crackle": 0.704,
+        "wheeze": 0.388
+      },
+      {
+        "t0": 3.0,
+        "t1": 6.0,
+        "kept": true,
+        "active_fraction": 0.3,
+        "crackle": 0.831,
+        "wheeze": 0.343
+      },
+      {
+        "t0": 4.5,
+        "t1": 7.5,
+        "kept": true,
+        "active_fraction": 0.47,
+        "crackle": 0.771,
+        "wheeze": 0.507
+      },
+      {
+        "t0": 6.0,
+        "t1": 9.0,
+        "kept": true,
+        "active_fraction": 0.43,
+        "crackle": 0.744,
+        "wheeze": 0.427
+      },
+      {
+        "t0": 7.5,
+        "t1": 10.5,
+        "kept": true,
+        "active_fraction": 0.3,
+        "crackle": 0.74,
+        "wheeze": 0.31
+      },
+      {
+        "t0": 9.0,
+        "t1": 12.0,
+        "kept": true,
+        "active_fraction": 0.3,
+        "crackle": 0.72,
+        "wheeze": 0.143
+      },
+      {
+        "t0": 10.5,
+        "t1": 13.5,
+        "kept": true,
+        "active_fraction": 0.37,
+        "crackle": 0.447,
+        "wheeze": 0.179
+      },
+      {
+        "t0": 12.0,
+        "t1": 15.0,
+        "kept": true,
+        "active_fraction": 0.6,
+        "crackle": 0.427,
+        "wheeze": 0.173
+      },
+      {
+        "t0": 13.5,
+        "t1": 16.5,
+        "kept": true,
+        "active_fraction": 0.3,
+        "crackle": 0.751,
+        "wheeze": 0.427
+      },
+      {
+        "t0": 15.0,
+        "t1": 18.0,
+        "kept": false,
+        "active_fraction": 0.07,
+        "crackle": null,
+        "wheeze": null
+      },
+      {
+        "t0": 16.5,
+        "t1": 19.5,
+        "kept": false,
+        "active_fraction": 0.07,
+        "crackle": null,
+        "wheeze": null
+      },
+      {
+        "t0": 18.0,
+        "t1": 21.0,
+        "kept": true,
+        "active_fraction": 0.23,
+        "crackle": 0.747,
+        "wheeze": 0.321
+      },
+      {
+        "t0": 19.5,
+        "t1": 22.5,
+        "kept": true,
+        "active_fraction": 0.73,
+        "crackle": 0.778,
+        "wheeze": 0.403
+      },
+      {
+        "t0": 21.0,
+        "t1": 24.0,
+        "kept": true,
+        "active_fraction": 0.5,
+        "crackle": 0.786,
+        "wheeze": 0.505
+      },
+      {
+        "t0": 22.5,
+        "t1": 25.5,
+        "kept": false,
+        "active_fraction": 0.1,
+        "crackle": null,
+        "wheeze": null
+      },
+      {
+        "t0": 24.0,
+        "t1": 27.0,
+        "kept": false,
+        "active_fraction": 0.1,
+        "crackle": null,
+        "wheeze": null
+      },
+      {
+        "t0": 25.5,
+        "t1": 28.5,
+        "kept": false,
+        "active_fraction": 0.0,
+        "crackle": null,
+        "wheeze": null
+      },
+      {
+        "t0": 27.0,
+        "t1": 30.0,
+        "kept": false,
+        "active_fraction": 0.03,
+        "crackle": null,
+        "wheeze": null
+      }
+    ]
+  },
+  {
+    "file": "middle_chest.wav",
+    "duration_s": 29.98,
+    "contrast_db": 13.0,
+    "summary": {
+      "scored_windows": 18,
+      "crackle_mean": 0.673,
+      "crackle_max": 0.814,
+      "crackle_over_half": 16,
+      "wheeze_mean": 0.21,
+      "wheeze_max": 0.42,
+      "wheeze_over_half": 0,
+      "four_class_mean": {
+        "Normal": 0.235,
+        "Crackle": 0.599,
+        "Wheeze": 0.09,
+        "Both": 0.077
+      }
+    },
+    "windows": [
+      {
+        "t0": 0.0,
+        "t1": 3.0,
+        "kept": true,
+        "active_fraction": 0.63,
+        "crackle": 0.423,
+        "wheeze": 0.032
+      },
+      {
+        "t0": 1.5,
+        "t1": 4.5,
+        "kept": true,
+        "active_fraction": 0.77,
+        "crackle": 0.713,
+        "wheeze": 0.109
+      },
+      {
+        "t0": 3.0,
+        "t1": 6.0,
+        "kept": true,
+        "active_fraction": 0.57,
+        "crackle": 0.761,
+        "wheeze": 0.23
+      },
+      {
+        "t0": 4.5,
+        "t1": 7.5,
+        "kept": true,
+        "active_fraction": 0.53,
+        "crackle": 0.813,
+        "wheeze": 0.304
+      },
+      {
+        "t0": 6.0,
+        "t1": 9.0,
+        "kept": true,
+        "active_fraction": 0.73,
+        "crackle": 0.695,
+        "wheeze": 0.42
+      },
+      {
+        "t0": 7.5,
+        "t1": 10.5,
+        "kept": true,
+        "active_fraction": 0.73,
+        "crackle": 0.721,
+        "wheeze": 0.364
+      },
+      {
+        "t0": 9.0,
+        "t1": 12.0,
+        "kept": true,
+        "active_fraction": 0.4,
+        "crackle": 0.619,
+        "wheeze": 0.098
+      },
+      {
+        "t0": 10.5,
+        "t1": 13.5,
+        "kept": true,
+        "active_fraction": 0.23,
+        "crackle": 0.814,
+        "wheeze": 0.243
+      },
+      {
+        "t0": 12.0,
+        "t1": 15.0,
+        "kept": true,
+        "active_fraction": 0.37,
+        "crackle": 0.722,
+        "wheeze": 0.265
+      },
+      {
+        "t0": 13.5,
+        "t1": 16.5,
+        "kept": true,
+        "active_fraction": 0.63,
+        "crackle": 0.628,
+        "wheeze": 0.206
+      },
+      {
+        "t0": 15.0,
+        "t1": 18.0,
+        "kept": true,
+        "active_fraction": 0.67,
+        "crackle": 0.81,
+        "wheeze": 0.383
+      },
+      {
+        "t0": 16.5,
+        "t1": 19.5,
+        "kept": true,
+        "active_fraction": 0.3,
+        "crackle": 0.673,
+        "wheeze": 0.09
+      },
+      {
+        "t0": 18.0,
+        "t1": 21.0,
+        "kept": true,
+        "active_fraction": 0.3,
+        "crackle": 0.508,
+        "wheeze": 0.042
+      },
+      {
+        "t0": 19.5,
+        "t1": 22.5,
+        "kept": true,
+        "active_fraction": 0.43,
+        "crackle": 0.616,
+        "wheeze": 0.206
+      },
+      {
+        "t0": 21.0,
+        "t1": 24.0,
+        "kept": true,
+        "active_fraction": 0.4,
+        "crackle": 0.811,
+        "wheeze": 0.253
+      },
+      {
+        "t0": 22.5,
+        "t1": 25.5,
+        "kept": true,
+        "active_fraction": 0.37,
+        "crackle": 0.771,
+        "wheeze": 0.359
+      },
+      {
+        "t0": 24.0,
+        "t1": 27.0,
+        "kept": true,
+        "active_fraction": 0.2,
+        "crackle": 0.397,
+        "wheeze": 0.063
+      },
+      {
+        "t0": 25.5,
+        "t1": 28.5,
+        "kept": true,
+        "active_fraction": 0.2,
+        "crackle": 0.626,
+        "wheeze": 0.115
+      }
+    ]
+  },
+  {
+    "file": "right_chest.wav",
+    "duration_s": 30.04,
+    "contrast_db": 14.5,
+    "summary": {
+      "scored_windows": 16,
+      "crackle_mean": 0.806,
+      "crackle_max": 0.876,
+      "crackle_over_half": 16,
+      "wheeze_mean": 0.336,
+      "wheeze_max": 0.559,
+      "wheeze_over_half": 2,
+      "four_class_mean": {
+        "Normal": 0.107,
+        "Crackle": 0.634,
+        "Wheeze": 0.11,
+        "Both": 0.15
+      }
+    },
+    "windows": [
+      {
+        "t0": 0.0,
+        "t1": 3.0,
+        "kept": true,
+        "active_fraction": 0.5,
+        "crackle": 0.703,
+        "wheeze": 0.472
+      },
+      {
+        "t0": 1.5,
+        "t1": 4.5,
+        "kept": true,
+        "active_fraction": 0.37,
+        "crackle": 0.773,
+        "wheeze": 0.353
+      },
+      {
+        "t0": 3.0,
+        "t1": 6.0,
+        "kept": true,
+        "active_fraction": 0.3,
+        "crackle": 0.749,
+        "wheeze": 0.297
+      },
+      {
+        "t0": 4.5,
+        "t1": 7.5,
+        "kept": true,
+        "active_fraction": 0.53,
+        "crackle": 0.779,
+        "wheeze": 0.298
+      },
+      {
+        "t0": 6.0,
+        "t1": 9.0,
+        "kept": true,
+        "active_fraction": 0.6,
+        "crackle": 0.876,
+        "wheeze": 0.224
+      },
+      {
+        "t0": 7.5,
+        "t1": 10.5,
+        "kept": true,
+        "active_fraction": 0.4,
+        "crackle": 0.833,
+        "wheeze": 0.165
+      },
+      {
+        "t0": 9.0,
+        "t1": 12.0,
+        "kept": true,
+        "active_fraction": 0.37,
+        "crackle": 0.843,
+        "wheeze": 0.319
+      },
+      {
+        "t0": 10.5,
+        "t1": 13.5,
+        "kept": true,
+        "active_fraction": 0.37,
+        "crackle": 0.854,
+        "wheeze": 0.472
+      },
+      {
+        "t0": 12.0,
+        "t1": 15.0,
+        "kept": false,
+        "active_fraction": 0.1,
+        "crackle": null,
+        "wheeze": null
+      },
+      {
+        "t0": 13.5,
+        "t1": 16.5,
+        "kept": false,
+        "active_fraction": 0.1,
+        "crackle": null,
+        "wheeze": null
+      },
+      {
+        "t0": 15.0,
+        "t1": 18.0,
+        "kept": true,
+        "active_fraction": 0.23,
+        "crackle": 0.864,
+        "wheeze": 0.559
+      },
+      {
+        "t0": 16.5,
+        "t1": 19.5,
+        "kept": true,
+        "active_fraction": 0.27,
+        "crackle": 0.804,
+        "wheeze": 0.307
+      },
+      {
+        "t0": 18.0,
+        "t1": 21.0,
+        "kept": true,
+        "active_fraction": 0.37,
+        "crackle": 0.849,
+        "wheeze": 0.25
+      },
+      {
+        "t0": 19.5,
+        "t1": 22.5,
+        "kept": true,
+        "active_fraction": 0.47,
+        "crackle": 0.79,
+        "wheeze": 0.168
+      },
+      {
+        "t0": 21.0,
+        "t1": 24.0,
+        "kept": true,
+        "active_fraction": 0.7,
+        "crackle": 0.778,
+        "wheeze": 0.327
+      },
+      {
+        "t0": 22.5,
+        "t1": 25.5,
+        "kept": true,
+        "active_fraction": 0.6,
+        "crackle": 0.723,
+        "wheeze": 0.509
+      },
+      {
+        "t0": 24.0,
+        "t1": 27.0,
+        "kept": false,
+        "active_fraction": 0.13,
+        "crackle": null,
+        "wheeze": null
+      },
+      {
+        "t0": 25.5,
+        "t1": 28.5,
+        "kept": true,
+        "active_fraction": 0.23,
+        "crackle": 0.821,
+        "wheeze": 0.35
+      },
+      {
+        "t0": 27.0,
+        "t1": 30.0,
+        "kept": true,
+        "active_fraction": 0.33,
+        "crackle": 0.85,
+        "wheeze": 0.313
+      }
+    ]
+  },
+  {
+    "file": "under_back.wav",
+    "duration_s": 29.94,
+    "contrast_db": 8.1,
+    "summary": {
+      "scored_windows": 3,
+      "crackle_mean": 0.441,
+      "crackle_max": 0.667,
+      "crackle_over_half": 1,
+      "wheeze_mean": 0.616,
+      "wheeze_max": 0.722,
+      "wheeze_over_half": 3,
+      "four_class_mean": {
+        "Normal": 0.225,
+        "Crackle": 0.172,
+        "Wheeze": 0.372,
+        "Both": 0.232
+      }
+    },
+    "windows": [
+      {
+        "t0": 0.0,
+        "t1": 3.0,
+        "kept": false,
+        "active_fraction": 0.0,
+        "crackle": null,
+        "wheeze": null
+      },
+      {
+        "t0": 1.5,
+        "t1": 4.5,
+        "kept": false,
+        "active_fraction": 0.03,
+        "crackle": null,
+        "wheeze": null
+      },
+      {
+        "t0": 3.0,
+        "t1": 6.0,
+        "kept": true,
+        "active_fraction": 0.4,
+        "crackle": 0.334,
+        "wheeze": 0.539
+      },
+      {
+        "t0": 4.5,
+        "t1": 7.5,
+        "kept": true,
+        "active_fraction": 0.67,
+        "crackle": 0.322,
+        "wheeze": 0.587
+      },
+      {
+        "t0": 6.0,
+        "t1": 9.0,
+        "kept": true,
+        "active_fraction": 0.3,
+        "crackle": 0.667,
+        "wheeze": 0.722
+      },
+      {
+        "t0": 7.5,
+        "t1": 10.5,
+        "kept": false,
+        "active_fraction": 0.1,
+        "crackle": null,
+        "wheeze": null
+      },
+      {
+        "t0": 9.0,
+        "t1": 12.0,
+        "kept": false,
+        "active_fraction": 0.13,
+        "crackle": null,
+        "wheeze": null
+      },
+      {
+        "t0": 10.5,
+        "t1": 13.5,
+        "kept": false,
+        "active_fraction": 0.03,
+        "crackle": null,
+        "wheeze": null
+      },
+      {
+        "t0": 12.0,
+        "t1": 15.0,
+        "kept": false,
+        "active_fraction": 0.0,
+        "crackle": null,
+        "wheeze": null
+      },
+      {
+        "t0": 13.5,
+        "t1": 16.5,
+        "kept": false,
+        "active_fraction": 0.0,
+        "crackle": null,
+        "wheeze": null
+      },
+      {
+        "t0": 15.0,
+        "t1": 18.0,
+        "kept": false,
+        "active_fraction": 0.07,
+        "crackle": null,
+        "wheeze": null
+      },
+      {
+        "t0": 16.5,
+        "t1": 19.5,
+        "kept": false,
+        "active_fraction": 0.1,
+        "crackle": null,
+        "wheeze": null
+      },
+      {
+        "t0": 18.0,
+        "t1": 21.0,
+        "kept": false,
+        "active_fraction": 0.03,
+        "crackle": null,
+        "wheeze": null
+      },
+      {
+        "t0": 19.5,
+        "t1": 22.5,
+        "kept": false,
+        "active_fraction": 0.0,
+        "crackle": null,
+        "wheeze": null
+      },
+      {
+        "t0": 21.0,
+        "t1": 24.0,
+        "kept": false,
+        "active_fraction": 0.0,
+        "crackle": null,
+        "wheeze": null
+      },
+      {
+        "t0": 22.5,
+        "t1": 25.5,
+        "kept": false,
+        "active_fraction": 0.0,
+        "crackle": null,
+        "wheeze": null
+      },
+      {
+        "t0": 24.0,
+        "t1": 27.0,
+        "kept": false,
+        "active_fraction": 0.0,
+        "crackle": null,
+        "wheeze": null
+      },
+      {
+        "t0": 25.5,
+        "t1": 28.5,
+        "kept": false,
+        "active_fraction": 0.0,
+        "crackle": null,
+        "wheeze": null
+      }
+    ]
+  },
+  {
+    "file": "under_chest.wav",
+    "duration_s": 30.28,
+    "contrast_db": 12.2,
+    "summary": {
+      "scored_windows": 16,
+      "crackle_mean": 0.67,
+      "crackle_max": 0.876,
+      "crackle_over_half": 13,
+      "wheeze_mean": 0.216,
+      "wheeze_max": 0.445,
+      "wheeze_over_half": 0,
+      "four_class_mean": {
+        "Normal": 0.235,
+        "Crackle": 0.604,
+        "Wheeze": 0.109,
+        "Both": 0.052
+      }
+    },
+    "windows": [
+      {
+        "t0": 0.0,
+        "t1": 3.0,
+        "kept": true,
+        "active_fraction": 0.67,
+        "crackle": 0.777,
+        "wheeze": 0.266
+      },
+      {
+        "t0": 1.5,
+        "t1": 4.5,
+        "kept": true,
+        "active_fraction": 0.6,
+        "crackle": 0.849,
+        "wheeze": 0.248
+      },
+      {
+        "t0": 3.0,
+        "t1": 6.0,
+        "kept": true,
+        "active_fraction": 0.6,
+        "crackle": 0.561,
+        "wheeze": 0.121
+      },
+      {
+        "t0": 4.5,
+        "t1": 7.5,
+        "kept": true,
+        "active_fraction": 0.57,
+        "crackle": 0.343,
+        "wheeze": 0.062
+      },
+      {
+        "t0": 6.0,
+        "t1": 9.0,
+        "kept": true,
+        "active_fraction": 0.77,
+        "crackle": 0.544,
+        "wheeze": 0.125
+      },
+      {
+        "t0": 7.5,
+        "t1": 10.5,
+        "kept": true,
+        "active_fraction": 0.8,
+        "crackle": 0.714,
+        "wheeze": 0.162
+      },
+      {
+        "t0": 9.0,
+        "t1": 12.0,
+        "kept": true,
+        "active_fraction": 0.87,
+        "crackle": 0.835,
+        "wheeze": 0.332
+      },
+      {
+        "t0": 10.5,
+        "t1": 13.5,
+        "kept": true,
+        "active_fraction": 0.7,
+        "crackle": 0.756,
+        "wheeze": 0.441
+      },
+      {
+        "t0": 12.0,
+        "t1": 15.0,
+        "kept": true,
+        "active_fraction": 0.37,
+        "crackle": 0.583,
+        "wheeze": 0.104
+      },
+      {
+        "t0": 13.5,
+        "t1": 16.5,
+        "kept": true,
+        "active_fraction": 0.47,
+        "crackle": 0.426,
+        "wheeze": 0.123
+      },
+      {
+        "t0": 15.0,
+        "t1": 18.0,
+        "kept": true,
+        "active_fraction": 0.47,
+        "crackle": 0.706,
+        "wheeze": 0.229
+      },
+      {
+        "t0": 16.5,
+        "t1": 19.5,
+        "kept": true,
+        "active_fraction": 0.67,
+        "crackle": 0.814,
+        "wheeze": 0.236
+      },
+      {
+        "t0": 18.0,
+        "t1": 21.0,
+        "kept": true,
+        "active_fraction": 0.83,
+        "crackle": 0.876,
+        "wheeze": 0.299
+      },
+      {
+        "t0": 19.5,
+        "t1": 22.5,
+        "kept": true,
+        "active_fraction": 0.63,
+        "crackle": 0.872,
+        "wheeze": 0.445
+      },
+      {
+        "t0": 21.0,
+        "t1": 24.0,
+        "kept": true,
+        "active_fraction": 0.43,
+        "crackle": 0.593,
+        "wheeze": 0.203
+      },
+      {
+        "t0": 22.5,
+        "t1": 25.5,
+        "kept": false,
+        "active_fraction": 0.17,
+        "crackle": null,
+        "wheeze": null
+      },
+      {
+        "t0": 24.0,
+        "t1": 27.0,
+        "kept": false,
+        "active_fraction": 0.07,
+        "crackle": null,
+        "wheeze": null
+      },
+      {
+        "t0": 25.5,
+        "t1": 28.5,
+        "kept": false,
+        "active_fraction": 0.17,
+        "crackle": null,
+        "wheeze": null
+      },
+      {
+        "t0": 27.0,
+        "t1": 30.0,
+        "kept": true,
+        "active_fraction": 0.2,
+        "crackle": 0.478,
+        "wheeze": 0.064
+      }
+    ]
+  },
+  {
+    "file": "under_chest_2.wav",
+    "duration_s": 29.98,
+    "contrast_db": 6.4,
+    "summary": {
+      "scored_windows": 9,
+      "crackle_mean": 0.739,
+      "crackle_max": 0.81,
+      "crackle_over_half": 9,
+      "wheeze_mean": 0.2,
+      "wheeze_max": 0.367,
+      "wheeze_over_half": 0,
+      "four_class_mean": {
+        "Normal": 0.196,
+        "Crackle": 0.624,
+        "Wheeze": 0.06,
+        "Both": 0.12
+      }
+    },
+    "windows": [
+      {
+        "t0": 0.0,
+        "t1": 3.0,
+        "kept": true,
+        "active_fraction": 0.6,
+        "crackle": 0.724,
+        "wheeze": 0.273
+      },
+      {
+        "t0": 1.5,
+        "t1": 4.5,
+        "kept": true,
+        "active_fraction": 0.6,
+        "crackle": 0.807,
+        "wheeze": 0.367
+      },
+      {
+        "t0": 3.0,
+        "t1": 6.0,
+        "kept": true,
+        "active_fraction": 0.3,
+        "crackle": 0.796,
+        "wheeze": 0.189
+      },
+      {
+        "t0": 4.5,
+        "t1": 7.5,
+        "kept": true,
+        "active_fraction": 0.2,
+        "crackle": 0.81,
+        "wheeze": 0.274
+      },
+      {
+        "t0": 6.0,
+        "t1": 9.0,
+        "kept": true,
+        "active_fraction": 0.2,
+        "crackle": 0.806,
+        "wheeze": 0.116
+      },
+      {
+        "t0": 7.5,
+        "t1": 10.5,
+        "kept": true,
+        "active_fraction": 0.3,
+        "crackle": 0.726,
+        "wheeze": 0.215
+      },
+      {
+        "t0": 9.0,
+        "t1": 12.0,
+        "kept": false,
+        "active_fraction": 0.17,
+        "crackle": null,
+        "wheeze": null
+      },
+      {
+        "t0": 10.5,
+        "t1": 13.5,
+        "kept": true,
+        "active_fraction": 0.3,
+        "crackle": 0.787,
+        "wheeze": 0.2
+      },
+      {
+        "t0": 12.0,
+        "t1": 15.0,
+        "kept": true,
+        "active_fraction": 0.43,
+        "crackle": 0.586,
+        "wheeze": 0.1
+      },
+      {
+        "t0": 13.5,
+        "t1": 16.5,
+        "kept": true,
+        "active_fraction": 0.3,
+        "crackle": 0.607,
+        "wheeze": 0.07
+      },
+      {
+        "t0": 15.0,
+        "t1": 18.0,
+        "kept": false,
+        "active_fraction": 0.1,
+        "crackle": null,
+        "wheeze": null
+      },
+      {
+        "t0": 16.5,
+        "t1": 19.5,
+        "kept": false,
+        "active_fraction": 0.1,
+        "crackle": null,
+        "wheeze": null
+      },
+      {
+        "t0": 18.0,
+        "t1": 21.0,
+        "kept": false,
+        "active_fraction": 0.1,
+        "crackle": null,
+        "wheeze": null
+      },
+      {
+        "t0": 19.5,
+        "t1": 22.5,
+        "kept": false,
+        "active_fraction": 0.03,
+        "crackle": null,
+        "wheeze": null
+      },
+      {
+        "t0": 21.0,
+        "t1": 24.0,
+        "kept": false,
+        "active_fraction": 0.07,
+        "crackle": null,
+        "wheeze": null
+      },
+      {
+        "t0": 22.5,
+        "t1": 25.5,
+        "kept": false,
+        "active_fraction": 0.03,
+        "crackle": null,
+        "wheeze": null
+      },
+      {
+        "t0": 24.0,
+        "t1": 27.0,
+        "kept": false,
+        "active_fraction": 0.07,
+        "crackle": null,
+        "wheeze": null
+      },
+      {
+        "t0": 25.5,
+        "t1": 28.5,
+        "kept": false,
+        "active_fraction": 0.07,
+        "crackle": null,
+        "wheeze": null
+      }
+    ]
+  },
+  {
+    "file": "under_left_back.wav",
+    "duration_s": 30.28,
+    "contrast_db": 13.4,
+    "summary": {
+      "scored_windows": 14,
+      "crackle_mean": 0.687,
+      "crackle_max": 0.819,
+      "crackle_over_half": 13,
+      "wheeze_mean": 0.362,
+      "wheeze_max": 0.626,
+      "wheeze_over_half": 4,
+      "four_class_mean": {
+        "Normal": 0.192,
+        "Crackle": 0.467,
+        "Wheeze": 0.137,
+        "Both": 0.204
+      }
+    },
+    "windows": [
+      {
+        "t0": 0.0,
+        "t1": 3.0,
+        "kept": true,
+        "active_fraction": 0.5,
+        "crackle": 0.604,
+        "wheeze": 0.574
+      },
+      {
+        "t0": 1.5,
+        "t1": 4.5,
+        "kept": true,
+        "active_fraction": 0.33,
+        "crackle": 0.436,
+        "wheeze": 0.427
+      },
+      {
+        "t0": 3.0,
+        "t1": 6.0,
+        "kept": true,
+        "active_fraction": 0.27,
+        "crackle": 0.658,
+        "wheeze": 0.067
+      },
+      {
+        "t0": 4.5,
+        "t1": 7.5,
+        "kept": true,
+        "active_fraction": 0.27,
+        "crackle": 0.755,
+        "wheeze": 0.304
+      },
+      {
+        "t0": 6.0,
+        "t1": 9.0,
+        "kept": true,
+        "active_fraction": 0.23,
+        "crackle": 0.763,
+        "wheeze": 0.581
+      },
+      {
+        "t0": 7.5,
+        "t1": 10.5,
+        "kept": true,
+        "active_fraction": 0.53,
+        "crackle": 0.771,
+        "wheeze": 0.626
+      },
+      {
+        "t0": 9.0,
+        "t1": 12.0,
+        "kept": true,
+        "active_fraction": 0.37,
+        "crackle": 0.729,
+        "wheeze": 0.499
+      },
+      {
+        "t0": 10.5,
+        "t1": 13.5,
+        "kept": false,
+        "active_fraction": 0.13,
+        "crackle": null,
+        "wheeze": null
+      },
+      {
+        "t0": 12.0,
+        "t1": 15.0,
+        "kept": false,
+        "active_fraction": 0.07,
+        "crackle": null,
+        "wheeze": null
+      },
+      {
+        "t0": 13.5,
+        "t1": 16.5,
+        "kept": true,
+        "active_fraction": 0.23,
+        "crackle": 0.739,
+        "wheeze": 0.203
+      },
+      {
+        "t0": 15.0,
+        "t1": 18.0,
+        "kept": true,
+        "active_fraction": 0.23,
+        "crackle": 0.647,
+        "wheeze": 0.171
+      },
+      {
+        "t0": 16.5,
+        "t1": 19.5,
+        "kept": false,
+        "active_fraction": 0.0,
+        "crackle": null,
+        "wheeze": null
+      },
+      {
+        "t0": 18.0,
+        "t1": 21.0,
+        "kept": true,
+        "active_fraction": 0.2,
+        "crackle": 0.734,
+        "wheeze": 0.271
+      },
+      {
+        "t0": 19.5,
+        "t1": 22.5,
+        "kept": true,
+        "active_fraction": 0.43,
+        "crackle": 0.819,
+        "wheeze": 0.516
+      },
+      {
+        "t0": 21.0,
+        "t1": 24.0,
+        "kept": true,
+        "active_fraction": 0.43,
+        "crackle": 0.66,
+        "wheeze": 0.401
+      },
+      {
+        "t0": 22.5,
+        "t1": 25.5,
+        "kept": true,
+        "active_fraction": 0.23,
+        "crackle": 0.555,
+        "wheeze": 0.113
+      },
+      {
+        "t0": 24.0,
+        "t1": 27.0,
+        "kept": false,
+        "active_fraction": 0.17,
+        "crackle": null,
+        "wheeze": null
+      },
+      {
+        "t0": 25.5,
+        "t1": 28.5,
+        "kept": true,
+        "active_fraction": 0.27,
+        "crackle": 0.748,
+        "wheeze": 0.316
+      },
+      {
+        "t0": 27.0,
+        "t1": 30.0,
+        "kept": false,
+        "active_fraction": 0.13,
+        "crackle": null,
+        "wheeze": null
+      }
+    ]
+  },
+  {
+    "file": "up.wav",
+    "duration_s": 30.78,
+    "contrast_db": 10.5,
+    "summary": {
+      "scored_windows": 17,
+      "crackle_mean": 0.754,
+      "crackle_max": 0.856,
+      "crackle_over_half": 17,
+      "wheeze_mean": 0.265,
+      "wheeze_max": 0.519,
+      "wheeze_over_half": 1,
+      "four_class_mean": {
+        "Normal": 0.157,
+        "Crackle": 0.634,
+        "Wheeze": 0.09,
+        "Both": 0.119
+      }
+    },
+    "windows": [
+      {
+        "t0": 0.0,
+        "t1": 3.0,
+        "kept": true,
+        "active_fraction": 0.33,
+        "crackle": 0.671,
+        "wheeze": 0.317
+      },
+      {
+        "t0": 1.5,
+        "t1": 4.5,
+        "kept": true,
+        "active_fraction": 0.43,
+        "crackle": 0.794,
+        "wheeze": 0.293
+      },
+      {
+        "t0": 3.0,
+        "t1": 6.0,
+        "kept": true,
+        "active_fraction": 0.23,
+        "crackle": 0.73,
+        "wheeze": 0.271
+      },
+      {
+        "t0": 4.5,
+        "t1": 7.5,
+        "kept": false,
+        "active_fraction": 0.13,
+        "crackle": null,
+        "wheeze": null
+      },
+      {
+        "t0": 6.0,
+        "t1": 9.0,
+        "kept": true,
+        "active_fraction": 0.53,
+        "crackle": 0.771,
+        "wheeze": 0.288
+      },
+      {
+        "t0": 7.5,
+        "t1": 10.5,
+        "kept": true,
+        "active_fraction": 0.73,
+        "crackle": 0.745,
+        "wheeze": 0.252
+      },
+      {
+        "t0": 9.0,
+        "t1": 12.0,
+        "kept": true,
+        "active_fraction": 0.5,
+        "crackle": 0.736,
+        "wheeze": 0.469
+      },
+      {
+        "t0": 10.5,
+        "t1": 13.5,
+        "kept": true,
+        "active_fraction": 0.33,
+        "crackle": 0.699,
+        "wheeze": 0.125
+      },
+      {
+        "t0": 12.0,
+        "t1": 15.0,
+        "kept": true,
+        "active_fraction": 0.47,
+        "crackle": 0.758,
+        "wheeze": 0.279
+      },
+      {
+        "t0": 13.5,
+        "t1": 16.5,
+        "kept": true,
+        "active_fraction": 0.67,
+        "crackle": 0.843,
+        "wheeze": 0.519
+      },
+      {
+        "t0": 15.0,
+        "t1": 18.0,
+        "kept": true,
+        "active_fraction": 0.73,
+        "crackle": 0.856,
+        "wheeze": 0.243
+      },
+      {
+        "t0": 16.5,
+        "t1": 19.5,
+        "kept": true,
+        "active_fraction": 0.73,
+        "crackle": 0.537,
+        "wheeze": 0.078
+      },
+      {
+        "t0": 18.0,
+        "t1": 21.0,
+        "kept": true,
+        "active_fraction": 0.37,
+        "crackle": 0.636,
+        "wheeze": 0.067
+      },
+      {
+        "t0": 19.5,
+        "t1": 22.5,
+        "kept": true,
+        "active_fraction": 0.2,
+        "crackle": 0.779,
+        "wheeze": 0.15
+      },
+      {
+        "t0": 21.0,
+        "t1": 24.0,
+        "kept": true,
+        "active_fraction": 0.37,
+        "crackle": 0.785,
+        "wheeze": 0.274
+      },
+      {
+        "t0": 22.5,
+        "t1": 25.5,
+        "kept": false,
+        "active_fraction": 0.17,
+        "crackle": null,
+        "wheeze": null
+      },
+      {
+        "t0": 24.0,
+        "t1": 27.0,
+        "kept": true,
+        "active_fraction": 0.3,
+        "crackle": 0.838,
+        "wheeze": 0.212
+      },
+      {
+        "t0": 25.5,
+        "t1": 28.5,
+        "kept": true,
+        "active_fraction": 0.43,
+        "crackle": 0.854,
+        "wheeze": 0.354
+      },
+      {
+        "t0": 27.0,
+        "t1": 30.0,
+        "kept": true,
+        "active_fraction": 0.3,
+        "crackle": 0.78,
+        "wheeze": 0.322
+      }
+    ]
+  },
+  {
+    "file": "up_left_back.wav",
+    "duration_s": 30.1,
+    "contrast_db": 14.6,
+    "summary": {
+      "scored_windows": 18,
+      "crackle_mean": 0.83,
+      "crackle_max": 0.914,
+      "crackle_over_half": 18,
+      "wheeze_mean": 0.328,
+      "wheeze_max": 0.508,
+      "wheeze_over_half": 1,
+      "four_class_mean": {
+        "Normal": 0.092,
+        "Crackle": 0.692,
+        "Wheeze": 0.103,
+        "Both": 0.113
+      }
+    },
+    "windows": [
+      {
+        "t0": 0.0,
+        "t1": 3.0,
+        "kept": true,
+        "active_fraction": 0.77,
+        "crackle": 0.814,
+        "wheeze": 0.262
+      },
+      {
+        "t0": 1.5,
+        "t1": 4.5,
+        "kept": true,
+        "active_fraction": 0.93,
+        "crackle": 0.866,
+        "wheeze": 0.508
+      },
+      {
+        "t0": 3.0,
+        "t1": 6.0,
+        "kept": true,
+        "active_fraction": 1.0,
+        "crackle": 0.818,
+        "wheeze": 0.455
+      },
+      {
+        "t0": 4.5,
+        "t1": 7.5,
+        "kept": true,
+        "active_fraction": 1.0,
+        "crackle": 0.836,
+        "wheeze": 0.416
+      },
+      {
+        "t0": 6.0,
+        "t1": 9.0,
+        "kept": true,
+        "active_fraction": 0.8,
+        "crackle": 0.803,
+        "wheeze": 0.37
+      },
+      {
+        "t0": 7.5,
+        "t1": 10.5,
+        "kept": true,
+        "active_fraction": 0.63,
+        "crackle": 0.773,
+        "wheeze": 0.408
+      },
+      {
+        "t0": 9.0,
+        "t1": 12.0,
+        "kept": true,
+        "active_fraction": 0.53,
+        "crackle": 0.749,
+        "wheeze": 0.287
+      },
+      {
+        "t0": 10.5,
+        "t1": 13.5,
+        "kept": true,
+        "active_fraction": 0.43,
+        "crackle": 0.731,
+        "wheeze": 0.262
+      },
+      {
+        "t0": 12.0,
+        "t1": 15.0,
+        "kept": true,
+        "active_fraction": 0.6,
+        "crackle": 0.913,
+        "wheeze": 0.33
+      },
+      {
+        "t0": 13.5,
+        "t1": 16.5,
+        "kept": true,
+        "active_fraction": 0.5,
+        "crackle": 0.815,
+        "wheeze": 0.288
+      },
+      {
+        "t0": 15.0,
+        "t1": 18.0,
+        "kept": true,
+        "active_fraction": 0.4,
+        "crackle": 0.692,
+        "wheeze": 0.275
+      },
+      {
+        "t0": 16.5,
+        "t1": 19.5,
+        "kept": true,
+        "active_fraction": 0.5,
+        "crackle": 0.912,
+        "wheeze": 0.404
+      },
+      {
+        "t0": 18.0,
+        "t1": 21.0,
+        "kept": true,
+        "active_fraction": 0.73,
+        "crackle": 0.81,
+        "wheeze": 0.393
+      },
+      {
+        "t0": 19.5,
+        "t1": 22.5,
+        "kept": true,
+        "active_fraction": 0.87,
+        "crackle": 0.863,
+        "wheeze": 0.327
+      },
+      {
+        "t0": 21.0,
+        "t1": 24.0,
+        "kept": true,
+        "active_fraction": 0.63,
+        "crackle": 0.914,
+        "wheeze": 0.175
+      },
+      {
+        "t0": 22.5,
+        "t1": 25.5,
+        "kept": true,
+        "active_fraction": 0.43,
+        "crackle": 0.892,
+        "wheeze": 0.289
+      },
+      {
+        "t0": 24.0,
+        "t1": 27.0,
+        "kept": true,
+        "active_fraction": 0.2,
+        "crackle": 0.852,
+        "wheeze": 0.205
+      },
+      {
+        "t0": 25.5,
+        "t1": 28.5,
+        "kept": false,
+        "active_fraction": 0.13,
+        "crackle": null,
+        "wheeze": null
+      },
+      {
+        "t0": 27.0,
+        "t1": 30.0,
+        "kept": true,
+        "active_fraction": 0.27,
+        "crackle": 0.889,
+        "wheeze": 0.248
+      }
+    ]
+  },
+  {
+    "file": "up_right_back.wav",
+    "duration_s": 30.08,
+    "contrast_db": 18.4,
+    "summary": {
+      "scored_windows": 19,
+      "crackle_mean": 0.764,
+      "crackle_max": 0.854,
+      "crackle_over_half": 19,
+      "wheeze_mean": 0.425,
+      "wheeze_max": 0.655,
+      "wheeze_over_half": 4,
+      "four_class_mean": {
+        "Normal": 0.129,
+        "Crackle": 0.54,
+        "Wheeze": 0.162,
+        "Both": 0.168
+      }
+    },
+    "windows": [
+      {
+        "t0": 0.0,
+        "t1": 3.0,
+        "kept": true,
+        "active_fraction": 0.6,
+        "crackle": 0.659,
+        "wheeze": 0.185
+      },
+      {
+        "t0": 1.5,
+        "t1": 4.5,
+        "kept": true,
+        "active_fraction": 0.67,
+        "crackle": 0.623,
+        "wheeze": 0.384
+      },
+      {
+        "t0": 3.0,
+        "t1": 6.0,
+        "kept": true,
+        "active_fraction": 0.8,
+        "crackle": 0.689,
+        "wheeze": 0.534
+      },
+      {
+        "t0": 4.5,
+        "t1": 7.5,
+        "kept": true,
+        "active_fraction": 0.47,
+        "crackle": 0.845,
+        "wheeze": 0.655
+      },
+      {
+        "t0": 6.0,
+        "t1": 9.0,
+        "kept": true,
+        "active_fraction": 0.47,
+        "crackle": 0.815,
+        "wheeze": 0.591
+      },
+      {
+        "t0": 7.5,
+        "t1": 10.5,
+        "kept": true,
+        "active_fraction": 0.7,
+        "crackle": 0.844,
+        "wheeze": 0.533
+      },
+      {
+        "t0": 9.0,
+        "t1": 12.0,
+        "kept": true,
+        "active_fraction": 0.7,
+        "crackle": 0.851,
+        "wheeze": 0.436
+      },
+      {
+        "t0": 10.5,
+        "t1": 13.5,
+        "kept": true,
+        "active_fraction": 0.77,
+        "crackle": 0.711,
+        "wheeze": 0.24
+      },
+      {
+        "t0": 12.0,
+        "t1": 15.0,
+        "kept": true,
+        "active_fraction": 0.63,
+        "crackle": 0.702,
+        "wheeze": 0.493
+      },
+      {
+        "t0": 13.5,
+        "t1": 16.5,
+        "kept": true,
+        "active_fraction": 0.43,
+        "crackle": 0.748,
+        "wheeze": 0.457
+      },
+      {
+        "t0": 15.0,
+        "t1": 18.0,
+        "kept": true,
+        "active_fraction": 0.53,
+        "crackle": 0.825,
+        "wheeze": 0.375
+      },
+      {
+        "t0": 16.5,
+        "t1": 19.5,
+        "kept": true,
+        "active_fraction": 0.57,
+        "crackle": 0.819,
+        "wheeze": 0.483
+      },
+      {
+        "t0": 18.0,
+        "t1": 21.0,
+        "kept": true,
+        "active_fraction": 0.57,
+        "crackle": 0.79,
+        "wheeze": 0.352
+      },
+      {
+        "t0": 19.5,
+        "t1": 22.5,
+        "kept": true,
+        "active_fraction": 0.47,
+        "crackle": 0.849,
+        "wheeze": 0.317
+      },
+      {
+        "t0": 21.0,
+        "t1": 24.0,
+        "kept": true,
+        "active_fraction": 0.53,
+        "crackle": 0.711,
+        "wheeze": 0.228
+      },
+      {
+        "t0": 22.5,
+        "t1": 25.5,
+        "kept": true,
+        "active_fraction": 0.87,
+        "crackle": 0.61,
+        "wheeze": 0.385
+      },
+      {
+        "t0": 24.0,
+        "t1": 27.0,
+        "kept": true,
+        "active_fraction": 1.0,
+        "crackle": 0.739,
+        "wheeze": 0.498
+      },
+      {
+        "t0": 25.5,
+        "t1": 28.5,
+        "kept": true,
+        "active_fraction": 0.83,
+        "crackle": 0.839,
+        "wheeze": 0.473
+      },
+      {
+        "t0": 27.0,
+        "t1": 30.0,
+        "kept": true,
+        "active_fraction": 0.7,
+        "crackle": 0.854,
+        "wheeze": 0.458
+      }
+    ]
+  }
+]
